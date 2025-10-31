@@ -32,6 +32,7 @@ import { CheckSlugUseCase } from '../../use-cases/posts/check-slug.use-case';
     ListPostsUseCase,
     TogglePublishUseCase,
     CheckSlugUseCase,
+    'IPostRepository',
   ],
 })
 export class PostsModule {}
