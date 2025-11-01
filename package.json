@@ -1,7 +1,7 @@
 {
   "name": "markdown-blog-api",
   "version": "0.0.1",
-  "description": "",
+  "description": "A robust and scalable RESTful API for a markdown-based blogging platform built with NestJS, TypeScript, and Clean Architecture",
   "author": "",
   "private": true,
   "license": "UNLICENSED",
