@@ -364,7 +364,7 @@ pnpm run start:dev
 
 7. **Access the API**
 
-- API: http://localhost:3000
+- API: http://localhost:3000/api
 - Swagger Documentation: http://localhost:3000/docs
 
 ## API Endpoints

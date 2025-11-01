@@ -27,6 +27,14 @@ async function bootstrap() {
     }),
   );
 
+  app.setGlobalPrefix('api', { exclude: ['docs'] });
+  app.enableCors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+  });
+
   await app.listen(process.env.PORT ?? 3000);
 }
 void bootstrap();
