@@ -440,9 +440,6 @@ erDiagram
   User ||--o{ Comment : hasMany
   Post ||--o{ Comment : hasMany
 
-  Comment }o--|| User : belongsTo
-  Comment }o--|| Post : belongsTo
-
 ```
 
 ### Users
